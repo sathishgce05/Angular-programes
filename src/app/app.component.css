@@ -1,0 +1,121 @@
+*
+{
+ box-sizing: border-box;
+}
+ body{
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+  .navbar{
+      background-color: rgb(229, 226, 226);
+  }
+  .navbar-light .navbar-nav .nav-link{
+      color: #000000;
+      font-size: 18px;
+  }
+  /* .navbar-light .navbar-nav .nav-link:hover{
+   text-decoration:underline;
+} */
+.header{
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 5px;
+}
+html, body, #body *, #footer *{ margin-top: 0px; padding: 5px; display: block; color: #ffffff; font-family: "Open Sans", sans-serif; font-size: inherit; font-weight: normal; line-height: 1; outline: 0; } 
+ 
+/* FontAwesome */
+    @font-face{ font-family: "FontAwesome"; src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0"); src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg"); font-weight: normal; font-style: normal; } 
+ 
+/* Queries */
+    /* Min */
+    @media (min-width: 0){ 
+        html{ font-size: 50%;  } 
+            body{ min-width: 200px; background: #f0f0ef; } 
+                #body{  } 
+                    #page{ padding: 4em; background: #fff; } 
+                        #page > h2{ color: #444; font-size: 1.25em; font-weight: 600; } 
+                        #page > p{ margin-top: 2em; line-height: 1.25; } 
+                #footer{ background: #202020; } 
+                    /* #cta{ padding: 4em; background: #350f55; }  */
+                       
+                    #resources{  } 
+                        #resources > h2{ display: none; }
+                        #modules{ padding: 4em; margin-bottom: -2em; } 
+                            #modules > h2{ display: none; } 
+                            #modules > .module{  } 
+                                #modules > .module > h3{ margin-bottom: 19px; color: #82c32d; font-size: 18px; font-weight: 600; border-bottom:1px solid #525252 ; text-align: center; border-bottom-color: rgb(82,82,82); border-bottom-style: solid; border-bottom-width: 1px;} 
+                                #modules > .module > p{ margin-bottom: 2em; color: #f2f0ed; line-height: 1.25; } 
+                                #modules > .module > ul{ margin-bottom: 2em; } 
+                                    #modules > .module > ul > li{ color: #f2f0ed; line-height: 1.25; } 
+                                        #modules > .module > ul > li > a{ color: #ffffff; line-height: 1.25; } 
+                                        #modules > .module > ul > li.facebook > a:before{ content: "\f003"; margin: 0 0.5em 0 0; display: inline-block; color: #f9f8f7; font-family: "FontAwesome"; text-align: center; } 
+                                        #modules > .module > ul > li.linkedin > a:before{ content: "\f095"; margin: 0 0.5em 0 0; display: inline-block; color: #f9f8f7; font-family: "FontAwesome"; text-align: center; } 
+                                        #modules > .module > ul > li.twitter > a:before{ content: "\f09a"; margin: 0 0.5em 0 0; display: inline-block; color: #f9f8f7; font-family: "FontAwesome"; text-align: center; }
+                                        #modules > .module > ul > li.youtube > a:before{ content: "\f099"; margin: 0 0.5em 0 0; display: inline-block; color: #f9f8f7; font-family: "FontAwesome"; text-align: center; } 
+                                        #modules > .module > ul > li.instagram > a:before{ content: "\f099"; margin: 0 0.5em 0 0; display: inline-block; color: #f9f8f7; font-family: "FontAwesome"; text-align: center; } 
+                                        #modules > .module > ul > li > a:hover{ color: #ffffff; } 
+                     #signature{  } 
+                    #legal{ padding: 4em 8em; background: #131212; } 
+                        #legal > p{ font-size: 0.75em; text-align: center; } 
+                            #legal > p > a{ display: inline; color: #fe9909; line-height: 1.25; } 
+                            #legal > p > a:hover{ color: #fdca40; }  
+    }
+    Bricks
+    @media (min-width: 200px){ 
+        html{ font-size: 4vw; } 
+            body{  } 
+    } 
+    /* Smartphones */
+    @media (min-width: 300px){ 
+        html{  } 
+            body{  } 
+    } 
+    /* Retina */
+    @media (min-width: 479px){ 
+        html{ font-size: 120%; } 
+            body{  } 
+    } 
+    /* Tablet */
+    @media (min-width: 768px){ 
+        html{  } 
+            body{  } 
+                #body{  } 
+                    #resources{  } 
+                        #modules{ overflow: hidden; } 
+                            #modules > .module{ float: left; width: 50%; } 
+                                #modules > .module > h3{ text-align: left; } 
+                                #modules > .module:nth-child(odd) > h3{ text-align: right; } 
+                                #modules > .module > p{  }  
+                                #modules > .module:nth-child(odd) > p{ text-align: right; } 
+                                #modules > .module > ul{  } 
+                                    #modules > .module > ul > li{  } 
+                                    #modules > .module:nth-child(odd) > ul > li{ text-align: right; } 
+                                        #modules > .module > ul > li > a{  } 
+    } 
+    /* Desktop */
+    @media (min-width: 979px){ 
+        html{  } 
+            body{  } 
+                #body{  } 
+                    #resources{  } 
+                        #modules{  } 
+                            #modules > .module{ width: 25%; } 
+                                #modules > .module > h3{ text-align: left; } 
+                                #modules > .module:nth-child(odd) > h3{ text-align: left; } 
+                                #modules > .module > p{  } 
+                                #modules > .module:nth-child(odd) > p{ text-align: left; } 
+                                #modules > .module > ul{  } 
+                                    #modules > .module > ul > li{  } 
+                                    #modules > .module:nth-child(odd) > ul > li{ text-align: left; } 
+                                        #modules > .module > ul > li > a{  } 
+    } 
+    /* Widescreen */
+    @media (min-width: 1800px){ 
+        html{ font-size: 1.067vw; } 
+            body{  } 
+    } 
+    /* Max */
+    @media (min-width: 2800px){ 
+        html{ font-size: 186.7%; } 
+            body{  } 
+    } 

@@ -1,0 +1,73 @@
+.mat-toolbar{
+    width: 1384ng spx;
+  }
+  
+  a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px;
+    color:white;
+   
+  }
+  .spacer {
+    flex: 1 1 auto;
+  }
+  .carousel-item,.active{
+    height:100%;
+    
+    
+    
+  }
+  .carousel-item{
+     width:100%;
+  }
+  
+  .container-fluid{
+    font: 16px/32px Roboto,"Helvetica Neue",sans-serif;
+    /* width: 1400PX; */
+  }
+  
+  .carousel-control-next, .carousel-control-prev {
+    top:260px;
+  }  
+  
+  /* .container-fluid{
+   max-width:100%; 
+   margin-left:0px;  
+  
+  /* background-color:  #185a9d; */
+  /* padding-top:88 ; */
+  /* background-image: linear-gradient(120deg,#185a9d 0%,#43cea2 74%); */
+  /* color:white;
+  } */ 
+  
+  /* p{
+  margin-top: auto; margin-left: 50px; 
+  } */
+  
+  /* image{
+    height: 0px;
+    padding-top:55%;
+  } */
+  div{
+    margin-top: -16px;
+    margin-left: -7.9px;
+   /* width: 1375px; */
+  }
+  
+  .mat-toolbar-row{
+    margin: 8px;
+  }
+    /* width:100%; */
+    /* margin-right:45px; */
+  
+  /* .mat-toolbar{
+    width: 100%;
+  } */
+  /* .img{
+    height: 100%;
+  } */
+  .h1,.carousel-item{
+    text-align: center;
+    font-size: 25px;
+  }
